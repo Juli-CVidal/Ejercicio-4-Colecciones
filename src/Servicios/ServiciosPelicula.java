@@ -22,7 +22,7 @@ public class ServiciosPelicula {
 
         System.out.print("Y la duración (en hrs): ");
         double duracion = leer.nextDouble();
-
+        
         return new Pelicula(titulo, director, duracion);
     }
 
